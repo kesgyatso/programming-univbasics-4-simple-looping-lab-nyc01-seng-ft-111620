@@ -9,10 +9,10 @@ def loop_message_five_times(phrase)
 
 end
 
-def loop_message_n_times(phrase)
+def loop_message_n_times(phrase, limit)
   counter=0
   
-  while counter>0
+  while counter < limit do
     puts phrase
     counter+=1
   end
