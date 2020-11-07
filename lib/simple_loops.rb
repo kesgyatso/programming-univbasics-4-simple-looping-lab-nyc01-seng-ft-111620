@@ -1,9 +1,10 @@
 # Write your methods here
-def loop_message_five_times
+def loop_message_five_times(phrase)
   counter=0
   
   while counter<5 do
-    puts "Hello World."
+    puts phrase
+    counter +=1
   end
 
 end
