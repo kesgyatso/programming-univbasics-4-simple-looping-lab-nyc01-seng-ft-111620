@@ -2,4 +2,8 @@
 def loop_message_five_times
   counter=0
   
-  while 
+  while counter<1 do
+    puts "Hello World."
+  end
+
+end
